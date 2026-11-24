@@ -8,6 +8,16 @@ class AppStyles {
     color: Colors.black,
    fontWeight: FontWeight.w600
   );
+ static final  TextStyle kText17StyleWhite = GoogleFonts.cairo(
+    fontSize: 17.sp,
+    color: AppColors.whiteColor,
+   fontWeight: FontWeight.w600
+  );
+ static final  TextStyle kText17StylePrimary = GoogleFonts.cairo(
+    fontSize: 17.sp,
+    color: AppColors.primaryColor,
+   fontWeight: FontWeight.w600
+  );
 static  final  TextStyle kText30StyleBlack =TextStyle(
     fontSize:30.sp,
     color: Colors.black,

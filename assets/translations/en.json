@@ -5,6 +5,13 @@
  "hello" :"Hello",
 
   "hello_text" :  "Let's find your \nExclusive Outfit ",
- "search": "Search"
+ "search": "Search",
+ "categories" : "Categories",
+
+ "All": "All",
+ "men": "Men",
+ "women": "Women",
+ "kidsWear": "Kids Wear"
+
 
 }

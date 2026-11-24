@@ -8,6 +8,7 @@ export 'package:tshirt_depi/helpers/app_constants.dart';
 export 'app_colors.dart';
 export 'package:tshirt_depi/helpers/app_field.dart';
 export '../../../helpers/app_button.dart';
+export 'package:tshirt_depi/helpers/width_space.dart';
 
 //===========packages==================
 export 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,8 +1,10 @@
 import '../../../helpers/parallel_imports.dart';
-
 import '../../search_screen/search_screen.dart';
+
 part '../../../widgets/home_header.dart';
 part '../../../widgets/search_banner.dart';
+part  '../../../widgets/all_categories.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -41,7 +43,12 @@ class HomeScreen extends StatelessWidget {
             ///---------------------------------------------------
             ///--------------Search bar-------------------------------
             ///---------------------------------------------------
-            SearchBanner()
+            SearchBanner(),
+            HeightSpace(AppSizes.paddingSize),
+            ///---------------------------------------------------
+            ///-------------- Categories-------------------------------
+            ///---------------------------------------------------
+            AllCategories()
 
           ],
         ),
