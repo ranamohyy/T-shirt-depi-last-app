@@ -1,7 +1,4 @@
-
-
 import 'package:google_fonts/google_fonts.dart';
-
 import 'parallel_imports.dart';
 
 class AppStyles {

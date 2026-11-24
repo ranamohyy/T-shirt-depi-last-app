@@ -4,5 +4,7 @@
 {
  "hello" :"Hello",
 
-  "hello_text" :  "Let's find your \nExclusive Outfit "
+  "hello_text" :  "Let's find your \nExclusive Outfit ",
+ "search": "Search"
+
 }
