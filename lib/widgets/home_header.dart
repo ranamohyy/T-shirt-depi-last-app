@@ -1,5 +1,5 @@
-part of '../home_nav/screens/home_screen.dart';
 
+part of '../features/home_nav/screens/home_screen.dart';
 class HomeHeader extends StatelessWidget {
   const HomeHeader({super.key});
 

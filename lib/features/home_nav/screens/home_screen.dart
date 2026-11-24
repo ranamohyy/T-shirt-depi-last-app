@@ -1,5 +1,8 @@
-import '../../helpers/parallel_imports.dart';
-part '../../widgets/home_header.dart';
+import '../../../helpers/parallel_imports.dart';
+
+import '../../search_screen/search_screen.dart';
+part '../../../widgets/home_header.dart';
+part '../../../widgets/search_banner.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -8,7 +11,9 @@ class HomeScreen extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.whiteColor,
       appBar: AppBar(
+        backgroundColor: AppColors.whiteColor,
         toolbarHeight:30 ,
         actions: [
           IconButton(onPressed: () {
@@ -31,7 +36,12 @@ class HomeScreen extends StatelessWidget {
             ///---------------------------------------------------
             ///--------------HEADER-------------------------------
             ///---------------------------------------------------
-            HomeHeader()
+            HomeHeader(),
+            HeightSpace(AppSizes.paddingSize),
+            ///---------------------------------------------------
+            ///--------------Search bar-------------------------------
+            ///---------------------------------------------------
+            SearchBanner()
 
           ],
         ),
